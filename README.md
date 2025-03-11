@@ -95,6 +95,9 @@ The `examples` directory contains sample emails that can be used to test the det
 - `phishing_email.eml`: A typical phishing email with multiple suspicious indicators
 - `spear_phishing.eml`: A targeted spear-phishing attempt
 
+![image](https://github.com/user-attachments/assets/dec795d0-1a12-4daf-97d2-266647a03138)
+
+
 ## License
 
 MIT
