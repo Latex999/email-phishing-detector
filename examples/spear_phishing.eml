@@ -1,0 +1,79 @@
+Return-Path: <ceo@company-mail.org>
+Received: from unknown (HELO mail-server.phishing.net) (10.0.0.25)
+    by mail.example.com with SMTP;
+    Mon, 11 Mar 2024 14:23:12 -0700 (PDT)
+From: "John Smith, CEO" <ceo@company-mail.org>
+Subject: Confidential: Immediate Wire Transfer Required
+Date: Mon, 11 Mar 2024 14:23:12 -0700
+Message-ID: <targeted123456@phishing.net>
+To: "Finance Director" <finance@example.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="boundary789"
+
+--boundary789
+Content-Type: text/plain; charset=UTF-8
+
+CONFIDENTIAL - FOR INTENDED RECIPIENT ONLY
+
+Hi,
+
+I need you to process an urgent wire transfer for a new vendor we're working with on the confidential acquisition project. This needs to be completed today.
+
+Amount: $47,850.00
+Recipient: Strategic Consulting LLC
+Account Number: 45781299
+Routing: 072156324
+Bank: First National Bank
+Reference: Project Jupiter - Q1 2024
+
+Please keep this confidential as per our NDA with the vendor. I'm in meetings all day and cannot be reached by phone, so please confirm by email when the transfer is complete.
+
+Thanks for handling this quickly.
+
+Regards,
+John Smith
+CEO
+
+--boundary789
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Confidential: Immediate Wire Transfer Required</title>
+</head>
+<body style="font-family: Arial, sans-serif;">
+  <div style="max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #eee;">
+    <h3 style="color: #333;">CONFIDENTIAL - FOR INTENDED RECIPIENT ONLY</h3>
+    
+    <p>Hi,</p>
+    
+    <p>I need you to process an <strong>urgent wire transfer</strong> for a new vendor we're working with on the confidential acquisition project. This needs to be completed today.</p>
+    
+    <ul style="background-color: #f9f9f9; padding: 15px; border-left: 3px solid #ccc;">
+      <li><strong>Amount:</strong> $47,850.00</li>
+      <li><strong>Recipient:</strong> Strategic Consulting LLC</li>
+      <li><strong>Account Number:</strong> 45781299</li>
+      <li><strong>Routing:</strong> 072156324</li>
+      <li><strong>Bank:</strong> First National Bank</li>
+      <li><strong>Reference:</strong> Project Jupiter - Q1 2024</li>
+    </ul>
+    
+    <p>Please keep this confidential as per our NDA with the vendor. I'm in meetings all day and cannot be reached by phone, so please confirm by email when the transfer is complete.</p>
+    
+    <p>Thanks for handling this quickly.</p>
+    
+    <p>
+      Regards,<br>
+      John Smith<br>
+      CEO
+    </p>
+    
+    <div style="font-size: 10px; color: #999; margin-top: 30px; border-top: 1px solid #eee; padding-top: 10px;">
+      <p>This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed.</p>
+    </div>
+  </div>
+</body>
+</html>
+
+--boundary789--
