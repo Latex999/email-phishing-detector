@@ -1,0 +1,77 @@
+Return-Path: <newsletter@legitimate-company.com>
+Received: from mail-server.legitimate-company.com (mail-server.legitimate-company.com [123.45.67.89])
+    by mx.example.com with ESMTP id a76si11578330igg.97.2024.03.11.12.00.59
+    for <recipient@example.com>;
+    Mon, 11 Mar 2024 12:00:59 -0700 (PDT)
+Received-SPF: pass (example.com: domain of newsletter@legitimate-company.com designates 123.45.67.89 as permitted sender) client-ip=123.45.67.89;
+Authentication-Results: mx.example.com;
+    dkim=pass header.i=@legitimate-company.com header.s=202404;
+    spf=pass (example.com: domain of newsletter@legitimate-company.com designates 123.45.67.89 as permitted sender) smtp.mailfrom=newsletter@legitimate-company.com;
+    dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=legitimate-company.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=legitimate-company.com; s=202404;
+    h=from:subject:date:message-id:to:mime-version:content-type;
+    bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;
+    b=E36xkAV4JPZe8JYAXMdbgTnDJI4m8SdXr6hJh5QOvAQfJ+LRYMnlkHi1fS2DeLFbct
+     SLFMttFGSdJzIzW1KrBOV3SsTuvS8qPvW22n8GoBZMZ9/Qz/vhQLS8JWf4m37kKZoJm
+     Qo7ZGn+V5X7nH7wTlpG8GdXHGKC44KYwjYUC7s=
+From: "Legitimate Newsletter" <newsletter@legitimate-company.com>
+Subject: Monthly Newsletter - March 2024
+Date: Mon, 11 Mar 2024 12:00:59 -0700
+Message-ID: <CAOvS7Jq7_rjuFpLsn+qxcoDJxXqvw=97KrEU-ZhZKm9ObD8gNg@mail.legitimate-company.com>
+To: recipient@example.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="boundary123"
+
+--boundary123
+Content-Type: text/plain; charset=UTF-8
+
+Hello,
+
+This is our monthly newsletter for March 2024.
+
+Here are the highlights:
+- New product features released
+- Community spotlight
+- Upcoming events
+
+You can visit our website at https://legitimate-company.com/news for more information.
+
+If you'd like to unsubscribe, please click https://legitimate-company.com/unsubscribe?id=1234
+
+Best regards,
+The Legitimate Company Team
+
+--boundary123
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Monthly Newsletter - March 2024</title>
+</head>
+<body>
+  <h1>Monthly Newsletter - March 2024</h1>
+  
+  <p>Hello,</p>
+  
+  <p>This is our monthly newsletter for March 2024.</p>
+  
+  <h2>Highlights:</h2>
+  <ul>
+    <li>New product features released</li>
+    <li>Community spotlight</li>
+    <li>Upcoming events</li>
+  </ul>
+  
+  <p>You can visit our <a href="https://legitimate-company.com/news">website</a> for more information.</p>
+  
+  <p>If you'd like to unsubscribe, please <a href="https://legitimate-company.com/unsubscribe?id=1234">click here</a>.</p>
+  
+  <p>
+    Best regards,<br>
+    The Legitimate Company Team
+  </p>
+</body>
+</html>
+
+--boundary123--
