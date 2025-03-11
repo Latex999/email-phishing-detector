@@ -1,0 +1,22 @@
+{
+    "suspicious_keywords": [
+        "urgent", "verify", "update", "account", "bank", "password", "confirm", "suspicious",
+        "unusual activity", "security", "login", "verify your account", "click here", "important",
+        "alert", "attention", "immediately", "expire", "suspended", "validate", "unauthorized",
+        "access denied", "security breach", "verify identity", "limited time", "compromised"
+    ],
+    "suspicious_tlds": [
+        ".tk", ".pw", ".cf", ".ga", ".gq", ".ml", ".xyz", ".top", ".club", ".work", ".date",
+        ".racing", ".stream", ".bid", ".review", ".trade", ".accountant", ".science", ".win", ".party"
+    ],
+    "suspicious_senders": [
+        "noreply@", "security@", "service@", "support@", "account@", "team@", "update@", "info@", 
+        "help@", "admin@", "no-reply@", "notification@", "do-not-reply@", "alert@", "secure@"
+    ],
+    "weight_thresholds": {
+        "low": 1.0,
+        "medium": 3.0,
+        "high": 5.0,
+        "critical": 8.0
+    }
+}
