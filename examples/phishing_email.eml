@@ -1,0 +1,71 @@
+Return-Path: <security@paypaI-account-verify.com>
+Received: from unknown (HELO mail-relay.phishingserver.net) (192.168.1.100)
+    by inbound.example.com with SMTP id abcdef123456
+    for <recipient@example.com>;
+    Mon, 11 Mar 2024 08:45:22 -0700 (PDT)
+From: "PayPal Security Team" <security@paypaI-account-verify.com>
+Reply-To: reply@different-domain.xyz
+Subject: URGENT: Your PayPal account has been limited
+Date: Mon, 11 Mar 2024 08:45:22 -0700
+Message-ID: <fake987654321@phishing-server.net>
+To: recipient@example.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="boundary456"
+
+--boundary456
+Content-Type: text/plain; charset=UTF-8
+
+URGENT: Your PayPal account access has been limited!
+
+Dear valued customer,
+
+We have detected unusual activity on your PayPal account. For your security, we have temporarily limited access to your account until you verify your information.
+
+You must complete the verification process within 24 hours or your account will be suspended permanently.
+
+To verify your account, click here: http://paypal-secure-verify.tk/login.php?id=123456
+
+If you need assistance, do not reply to this email. Instead, contact our customer service department immediately.
+
+Thank you for your immediate attention to this matter.
+
+PayPal Security Team
+
+--boundary456
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>URGENT: Your PayPal account has been limited</title>
+</head>
+<body style="font-family: Arial, sans-serif;">
+  <div style="max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ccc;">
+    <img src="http://paypal-secure-verify.tk/logo.png" alt="PayPal" style="max-width: 200px;">
+    
+    <h2 style="color: #d90000;">URGENT: Your PayPal account access has been limited!</h2>
+    
+    <p>Dear valued customer,</p>
+    
+    <p><strong>We have detected unusual activity on your PayPal account.</strong> For your security, we have temporarily limited access to your account until you verify your information.</p>
+    
+    <p>You must complete the verification process <strong>within 24 hours</strong> or your account will be suspended permanently.</p>
+    
+    <div style="text-align: center; margin: 30px 0;">
+      <a href="http://paypal-secure-verify.tk/login.php?id=123456" style="background-color: #0070ba; color: white; padding: 12px 20px; text-decoration: none; font-weight: bold; border-radius: 3px;">Verify My Account Now</a>
+    </div>
+    
+    <p>If you need assistance, do not reply to this email. Instead, contact our customer service department immediately.</p>
+    
+    <p>Thank you for your immediate attention to this matter.</p>
+    
+    <p><strong>PayPal Security Team</strong></p>
+    
+    <div style="font-size: 11px; color: #666; margin-top: 30px; padding-top: 10px; border-top: 1px solid #eee;">
+      <p>© 2024 PayPal Inc. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
+
+--boundary456--
